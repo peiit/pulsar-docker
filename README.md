@@ -11,7 +11,7 @@ flexible messaging model and an intuitive client API.
 - from official readme ( https://pulsar.apache.org/docs/2.10.x/getting-started-docker/ )
 
 ```
-docker run -it -p 6650:6650  -p 8080:8080 --mount source=pulsardata,target=/pulsar/data --mount source=pulsarconf,target=/pulsar/conf pulsar:2.10.2 bin/pulsar standalone
+docker run -it -p 6650:6650  -p 8080:8080 --mount source=pulsardata,target=/pulsar/data --mount source=pulsarconf,target=/pulsar/conf pulsar:2.10.2
 ```
 
 # Reference

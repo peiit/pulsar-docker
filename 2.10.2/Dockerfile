@@ -17,5 +17,4 @@ ENV PULSAR_ROOT_LOGGER=INFO,CONSOLE
 
 EXPOSE 6650 8080
 
-CMD ["standalone"]
-ENTRYPOINT [ "bin/pulsar" ]
+CMD [ "bin/pulsar", "standalone"]
