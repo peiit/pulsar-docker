@@ -29,5 +29,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: 2.10.2
+          platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/ppc64le,linux/s390x
           push: true
           tags: peiit/pulsar:2.10.2
