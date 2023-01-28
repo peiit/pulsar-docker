@@ -8,10 +8,23 @@ flexible messaging model and an intuitive client API.
 - build by latest release binary
 
 # Usage
-- from official readme ( https://pulsar.apache.org/docs/2.10.x/getting-started-docker/ )
 
+## 2.10.2
+- from official readme ( https://pulsar.apache.org/docs/2.10.x/getting-started-docker/ )
 ```
-docker run -it -p 6650:6650  -p 8080:8080 --mount source=pulsardata,target=/pulsar/data --mount source=pulsarconf,target=/pulsar/conf pulsar:2.10.2
+docker run -it -p 6650:6650  -p 8080:8080 --mount source=pulsardata,target=/pulsar/data --mount source=pulsarconf,target=/pulsar/conf peiit/pulsar:2.10.2
+```
+
+## 2.10.3
+- from official readme ( https://pulsar.apache.org/docs/2.10.x/getting-started-docker/ )
+```
+docker run -it -p 6650:6650  -p 8080:8080 --mount source=pulsardata,target=/pulsar/data --mount source=pulsarconf,target=/pulsar/conf peiit/pulsar:2.10.3
+```
+
+## 2.11.0
+- from official readme ( https://pulsar.apache.org/docs/2.11.x/getting-started-docker/ )
+```
+docker run -it -p 6650:6650  -p 8080:8080 --mount source=pulsardata,target=/pulsar/data --mount source=pulsarconf,target=/pulsar/conf peiit/pulsar:2.11.0
 ```
 
 # Reference
